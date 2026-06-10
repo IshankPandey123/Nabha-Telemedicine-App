@@ -1,7 +1,5 @@
 
-  # Blood Donation App Features
-
-  This is a code bundle for Blood Donation App Features. The original project is available at https://www.figma.com/design/8pvTVNUNCqO8vKecuyFKzN/Blood-Donation-App-Features.
+  # Blood Donation App Feature
 
   ## Running the code
 
