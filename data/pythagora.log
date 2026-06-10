@@ -1,0 +1,71 @@
+2025-09-19T09:26:10.183Z INFO SharedStateManager initialized
+2025-09-19T09:26:10.184Z INFO [Migration] Checking for database migration...
+2025-09-19T09:26:10.184Z INFO [Migration] No migration needed
+2025-09-19T09:26:10.185Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-19T09:26:10.186Z ERROR Database initialization error:
+Error: ENOENT: no such file or directory, mkdir '/pythagora/pythagora-core/data/database'
+Stack: Error: ENOENT: no such file or directory, mkdir '/pythagora/pythagora-core/data/database'
+	at Object.mkdirSync (node:fs:1400:3)
+	at PrismaSession.ensureDatabaseSync (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:61:20)
+	at new PrismaSession (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:17:18)
+	at PrismaSession.getInstance (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:28:38)
+	at new MainProvider (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/providers/MainProvider.js:73:45)
+	at MainProvider.getInstance (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/providers/MainProvider.js:129:37)
+	at activate (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/extension.js:39:37)
+	at async h.n (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+	at async h.m (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+	at async h.l (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701)
+2025-09-19T09:26:10.195Z ERROR Error stdout:
+2025-09-19T09:26:10.195Z ERROR Error stderr:
+2025-09-19T09:26:10.196Z ERROR Failed to ensure database
+Error: Failed to initialize database: ENOENT: no such file or directory, mkdir '/pythagora/pythagora-core/data/database'
+stdout: undefined
+stderr: undefined
+Stack: Error: Failed to initialize database: ENOENT: no such file or directory, mkdir '/pythagora/pythagora-core/data/database'
+stdout: undefined
+stderr: undefined
+	at PrismaSession.ensureDatabaseSync (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:102:19)
+	at new PrismaSession (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:17:18)
+	at PrismaSession.getInstance (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/core/CustomPrismaSession.js:28:38)
+	at new MainProvider (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/providers/MainProvider.js:73:45)
+	at MainProvider.getInstance (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/providers/MainProvider.js:129:37)
+	at activate (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/extension.js:39:37)
+	at async h.n (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+	at async h.m (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+	at async h.l (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:5701)
+2025-09-19T09:26:10.198Z INFO Is remote: false
+2025-09-19T09:26:10.199Z INFO Starting Local. Installation path: undefined
+2025-09-19T09:26:20.506Z INFO [[object Object]] MainProvider handleMessage
+2025-09-19T09:26:21.451Z INFO [[object Object]] MainProvider handleMessage
+2025-09-19T09:26:21.452Z INFO [[object Object]] Center panel message:
+2025-09-19T09:26:21.452Z INFO [[object Object]] MainProvider handleMessage
+2025-09-19T09:26:21.452Z INFO [[object Object]] Center panel message:
+2025-09-19T09:26:21.452Z INFO [MainProvider] Center panel ready - processing ready handler
+2025-09-19T09:26:21.452Z INFO [MainProvider] Center panel ready - flushing 0 buffered messages
+2025-09-19T09:26:21.452Z INFO [Message Router] Routing getProjectInfo through unified router
+2025-09-19T09:26:24.262Z INFO MainProvider: Center panel disposed
+2025-09-19T09:29:58.571Z INFO Closing entire Pythagora extension...
+2025-09-19T09:29:58.575Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new O (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+	at c.U (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+	at F.<computed>.z.charCodeAt.F.<computed> (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+	at r.g (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+	at r.executeCommand (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+	at Object.executeCommand (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+	at closeEntirePythagoraExtension (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/extension.js:302:31)
+	at Object.deactivate (/Users/ishankpandey/.vscode/extensions/pythagoratechnologies.pythagora-vs-code-2.5.4/out/extension.js:212:15)
+	at f.eb (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9780)
+	at /private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+	at Array.map (<anonymous>)
+	at f.$ (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+	at f.terminate (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+	at a.terminate (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+	at MessagePortMain.<anonymous> (/private/var/folders/rq/gh34wlgd1vzgqvwhpzgkg8rc0000gn/T/AppTranslocation/EA1B491A-E24D-45B8-B7B1-74E8AEF86442/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6347)
+	at MessagePortMain.emit (node:events:517:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)

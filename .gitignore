@@ -1,0 +1,7 @@
+venv/
+venv_new/
+node_modules/
+.DS_Store
+dist/
+build/
+.cursor/
